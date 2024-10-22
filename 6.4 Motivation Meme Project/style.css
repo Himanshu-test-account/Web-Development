@@ -1,0 +1,17 @@
+body{
+    background-color:black;
+}
+
+img{
+    border:10px solid white;
+    margin-top:100px;
+    margin-left:400px;
+}
+.word{
+    color:white;
+    text-align:center;
+}
+.para{
+    color:white;
+    text-align:center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Secrets</title>
+</head>
+
+<body>
+  <h1>Secrets</h1>
+  <form action="/check" method="POST">
+    <label for="password">Password:</label>
+    <input type="text" id="password" name="password" required>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
+
+<!-- $ nodemon index.js
+  Usage: nodemon [nodemon options] [script.js] [args]
+
+  See "nodemon --help" for more.
+
+
+himan@LAPTOP-3UODO4OB MINGW64 ~/OneDrive/Desktop/himanshu/web development project/Backend
+$ node index.js
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\himan\OneDrive\Desktop\himanshu\web development project\Backend\index.js'
+←[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)←[39m
+←[90m    at Module._load (node:internal/modules/cjs/loader:920:27)←[39m
+←[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)←[39m
+←[90m    at node:internal/main/run_main_module:23:47←[39m {
+  code: ←[32m'MODULE_NOT_FOUND'←[39m,
+  requireStack: []
+}
+
+Node.js v18.16.0 -->

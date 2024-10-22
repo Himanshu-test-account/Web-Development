@@ -1,0 +1,140 @@
+html {
+    background-color: rgb(228, 233, 253);
+    background-image: -webkit-linear-gradient(65deg, rgb(166, 131, 227) 50%, rgb(228, 233, 253) 50%);
+    min-height: 1000px;
+    font-family: "helvetica neue";
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    min-height: 95vh;
+}
+
+header
+{
+    display: block;
+}
+
+.box {
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 15px -5px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+}
+.navbar-mainbg {
+    padding: 0px;
+}
+
+main {
+    display:block;
+    text-align: center;
+    flex: 1 0 auto;
+}
+
+h1
+{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+#navbarSupportedContent {
+    position: relative;
+    overflow: hidden;
+    list-style-type: none;
+    float: left;
+}
+
+#navbarSupportedContent ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+@media (max-width: 991px) {
+    #navbarSupportedContent ul li a {
+    padding: 12px 30px;
+}}
+
+#navbarSupportedContent ul li a {
+    font-size: 15px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#navbarSupportedContent ul li a i {
+    margin-right: 10px;
+}
+
+.far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+}
+
+.fa, .fas, .far, .fal, .fad, .fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fa-clone:before {
+    content: "\f24d";
+}
+
+.fa-calendar-alt:before {
+    content: "\f073";
+}
+
+.item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+
+input[type="checkbox"] {
+    margin: 20px;
+}
+
+p{
+    font-family: "helvetica neue";
+    color: rgb(0, 32, 74);
+    font-size: 20px;
+    height: 22px;
+}
+
